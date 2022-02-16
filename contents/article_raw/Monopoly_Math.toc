@@ -1,3 +1,4 @@
 \contentsline {section}{\numberline {1}Introduction to the game}{2}%
 \contentsline {subsection}{\numberline {1.1}Goal of the game}{2}%
 \contentsline {subsection}{\numberline {1.2}The board}{2}%
+\contentsline {section}{\numberline {2}Throwing the die}{2}%

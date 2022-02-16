@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.25)  15 FEB 2022 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.25)  15 FEB 2022 23:07
 entering extended mode
 **./Monopoly_Math.tex
 (Monopoly_Math.tex
@@ -54,100 +54,212 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsma
+th.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amste
+xt.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsge
+n.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen137
+))
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbs
+y.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+)
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsop
+n.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count175
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count176
+\leftroot@=\count177
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count178
+\DOTSCASE@=\count179
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count180
+\c@MaxMatrixCols=\count181
+\dotsspace@=\muskip16
+\c@parentequation=\count182
+\dspbrk@lvl=\count183
+\tag@help=\toks17
+\row@=\count184
+\column@=\count185
+\maxfields@=\count186
+\andhelp@=\toks18
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
 ("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3b
 ackend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count175
-\l__pdf_internal_box=\box45
+\l__kernel_color_stack_int=\count187
+\l__pdf_internal_box=\box47
 ) (Monopoly_Math.aux)
 \openout1 = `Monopoly_Math.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 ("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\s
 upp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
-\scratchdimen=\dimen137
-\scratchbox=\box46
-\nofMPsegments=\count177
-\nofMParguments=\count178
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count179
-\MPscratchDim=\dimen138
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count188
+\scratchdimen=\dimen146
+\scratchbox=\box48
+\nofMPsegments=\count189
+\nofMParguments=\count190
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count191
+\MPscratchDim=\dimen147
+\MPnumerator=\count192
+\makeMPintoPDFobject=\count193
+\everyMPtoPDFconversion=\toks22
 )
 ("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\
 epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\i
+nfwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfext
+.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekey
+s\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+))
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvo
+ptions.sty"
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltx
+cmds.sty"
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\k
+vsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pd
+ftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Lars Kwant\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex
+.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
- (Monopoly_Math.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
-)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+) (Monopoly_Math.toc)
 \tf@toc=\write3
 \openout3 = `Monopoly_Math.toc'.
 
  [1
 
 {C:/Users/Lars Kwant/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 <images/board.jpg, id=10, 1606.0pt x 1606.0pt>
 File: images/board.jpg Graphic file (type jpg)
 <use images/board.jpg>
-Package pdftex.def Info: images/board.jpg  used on input line 23.
-(pdftex.def)             Requested size: 345.0pt x 344.98921pt.
+Package pdftex.def Info: images/board.jpg  used on input line 24.
+(pdftex.def)             Requested size: 241.49895pt x 241.47774pt.
+[2 <./images/board.jpg>]
+<./images/die_roll_histogram.png, id=15, 462.528pt x 346.896pt>
+File: ./images/die_roll_histogram.png Graphic file (type png)
+<use ./images/die_roll_histogram.png>
+Package pdftex.def Info: ./images/die_roll_histogram.png  used on input line 59
+.
+(pdftex.def)             Requested size: 241.49895pt x 181.12799pt.
+<./images/firstThrow.png, id=17, 281.41937pt x 281.56392pt>
+File: ./images/firstThrow.png Graphic file (type png)
+<use ./images/firstThrow.png>
+Package pdftex.def Info: ./images/firstThrow.png  used on input line 71.
+(pdftex.def)             Requested size: 241.49895pt x 241.63327pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2] [3 <./images/board.jpg>] (Monopoly_Math.aux) ) 
+[3 <./images/die_roll_histogram.png>] [4 <./images/firstThrow.png>]
+(Monopoly_Math.aux) ) 
 Here is how much of TeX's memory you used:
- 1171 strings out of 480799
- 18076 string characters out of 2893447
- 252434 words of memory out of 3000000
- 17209 multiletter control sequences out of 15000+200000
- 536928 words of font info for 39 fonts, out of 3000000 for 9000
+ 2285 strings out of 480799
+ 34373 string characters out of 2893447
+ 275660 words of memory out of 3000000
+ 18269 multiletter control sequences out of 15000+200000
+ 538067 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,25p,375b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Lars Kwant\AppData
-\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Lars
- Kwant/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.
-pfb><C:/Users/Lars Kwant/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb><C:/Users/Lars Kwant/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lars Kwant/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lars Kwant/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Monopoly_Math.pdf (3 pages, 443014 bytes).
+ 34i,7n,29p,561b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Lars Kwant/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Lars Kwant/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lars Kwant/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Users/Lars Kwant/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Users/Lars Kwant/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Users/Lars Kwant/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lars Kwant/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Lars K
+want/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Users/Lars Kwant/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmti10.pfb>
+Output written on Monopoly_Math.pdf (4 pages, 2064436 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
