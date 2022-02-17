@@ -104,7 +104,7 @@ def simulateThrowOnPos(position, nDoubles):
 
 def simulateGame(nTurns):
     
-    positions = np.empty(nTurns)
+    positions = np.zeros(nTurns, dtype = int)
     doubles = 0
     
     for i in range(nTurns):
@@ -113,7 +113,16 @@ def simulateGame(nTurns):
 
     return positions
 
-print(simulateGame(12))
+def simulateGames(nSims, nTurns):
+    
+    freqArray = np.zeros(41, dtype = int)
+    
+    for i in range(nSims):
+        positions = simulateGame(nTurns)
+        freqArray[positions] += 1
+    
+    return freqArray
+print(simulateGames(100, 2))
 
 
 
