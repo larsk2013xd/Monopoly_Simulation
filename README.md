@@ -1,2 +1,4 @@
-# Monopoly_Math
-Discovering the math and probability theory behind the well known game of Monopoly
+# Monopoly Simulation
+This repo contains a project that simulates games of Monopoly and can be used to investigate game tactics and overall probabilities.
+
+# More to come here
