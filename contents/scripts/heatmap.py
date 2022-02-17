@@ -3,7 +3,11 @@ import matplotlib.pyplot as plt
 import imageio
 import os
 
-def densityPlot(density, sname, printPilon, pilonSquare):
+def densityPlot(density, sname, printPilon = False, pilonSquare = 0, makeDensity = True):
+    
+    
+    if makeDensity:
+        density = density/np.sum(density)
     
     plt.clf()
     boardImg = plt.imread("../article_raw/images/board.jpg")
@@ -31,7 +35,7 @@ def densityPlot(density, sname, printPilon, pilonSquare):
     squareCenters[10] = np.array([1/12, 1/12])
     squareCenters[20] = np.array([1/11, 10/11])
     squareCenters[30] = np.array([10/11, 10/11])
-    squareCenters[40] = np.array([1/11, 1/11])
+    squareCenters[40] = np.array([1.5/11, 1.5/11])
 
     x = np.zeros(41)
     y = np.zeros(41)
@@ -46,11 +50,11 @@ def densityPlot(density, sname, printPilon, pilonSquare):
     
     for i in range(41):
         green = 1/max(density) * density[i]
-        red = 1 - green
+        white = 1
         if printPilon and i == pilonSquare:
             plt.annotate(str(np.round(density[i]*100, decimals = 2)) + "%", (x[i], y[i]), fontsize = 2, horizontalalignment = 'center')
         else:
-            plt.annotate(str(np.round(density[i]*100, decimals = 2)) + "%", (x[i], y[i]), fontsize = 4, backgroundcolor = (red, green, 0, 0.8), horizontalalignment = 'center')
+            plt.annotate(str(np.round(density[i]*100, decimals = 2)) + "%", (x[i], y[i]), fontsize = 4, backgroundcolor = (1-green, 1, 1-green, 1), horizontalalignment = 'center')
     
     if printPilon:
        plt.scatter(x = squareCenters[pilonSquare][0], y = squareCenters[pilonSquare][1], s = 100, c = "red")
@@ -84,7 +88,7 @@ def grabCommunityCard(pos):
     elif pickedCard == 2: return 40 # Go To jail
     else: return pos # Community card does not move player (Money related)
     
-def simulateThrowOnPos(position, nDoubles):
+def doThrowOnPos(position, nDoubles = 0):
     
     dies = np.random.randint(low = 1, high = 7, size =2)
     
@@ -102,19 +106,29 @@ def simulateThrowOnPos(position, nDoubles):
     if newPosition == 2 or newPosition == 33 or newPosition == 17: return (grabCommunityCard(newPosition), nDoubles) #Community card
     else: return(newPosition, nDoubles)
 
+def simulateThrowOnPos(position, nSims):
+    
+    freqList = np.zeros(nSims)
+    
+    for i in range(nSims):
+        freqList[doThrowOnPos(position)[0]] += 1
+        
+    return freqList
+
 def simulateGame(nTurns):
     
     positions = np.zeros(nTurns, dtype = int)
     doubles = 0
     
     for i in range(nTurns):
-        if i == 0 : (positions[i], doubles) = simulateThrowOnPos(0, doubles)
-        else : (positions[i], doubles) = simulateThrowOnPos(positions[i-1], doubles)
+        if i == 0 : (positions[i], doubles) = doThrowOnPos(0, doubles)
+        else : (positions[i], doubles) = doThrowOnPos(positions[i-1], doubles)
 
     return positions
 
 def simulateGames(nSims, nTurns):
     
+    print("Simulating many games...")
     freqArray = np.zeros(41, dtype = int)
     
     for i in range(nSims):
@@ -123,7 +137,6 @@ def simulateGames(nSims, nTurns):
     
     return freqArray
 
-
-
+densityPlot(simulateThrowOnPos(0, 100000), "testPlot")
 
     
