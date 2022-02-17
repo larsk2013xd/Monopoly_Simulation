@@ -34,3 +34,7 @@ The user can use two functions to obtain densities:
 `simulateThrowOnPos(position, nSims)` This will return a density of ending spots after a throw from a specific `position`. `nSims` can be used to increase/decrease estimation accuracy
 
 `simulateGames(nSims, nTurns)` This will let a player move around the board for a total of `nTurns`. This will be simulated `nSims` times.
+
+# To be added
+
+The graphics will be completely redone and multiple seperate graphics will be available. For now the `densityPlot` is the only possible function for the graphical interpretation
