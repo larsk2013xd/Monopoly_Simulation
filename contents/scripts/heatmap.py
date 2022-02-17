@@ -93,7 +93,7 @@ def simulateThrowOnPos(position, nDoubles):
     else : nDoubles = 0
     if nDoubles == 3: return (40, nDoubles) # 3x Double go to jail
     
-    if position == 40 : newPosition = 10 #Assume (FOR NOW) immediate release from jail
+    if position == 40 : position = 10 #Assume (FOR NOW) immediate release from jail
     
     newPosition = position + dies.sum()
     newPosition = newPosition%40
