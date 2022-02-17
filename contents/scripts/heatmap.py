@@ -122,7 +122,7 @@ def simulateGames(nSims, nTurns):
         freqArray[positions] += 1
     
     return freqArray
-print(simulateGames(100, 2))
+
 
 
 
