@@ -71,7 +71,7 @@ def grabChanceCard(pos):
         elif pos > 5 : return 15 # Pennsylvania Railroad
     elif pickedCard == 7 : # Go to nearest Utility
         if pos > 29 or pos < 12 : return 12 #water mains
-        if POS < 29 and pos > 12 : return 29 #electricity
+        if pos < 29 and pos > 12 : return 29 #electricity
     elif pickedCard == 10 : return pos - 3 # Go back 3 spots
     elif pickedCard == 11 : return 40 # Go To Jail
     elif pickedCard == 14 : return 5 # Rearing Railroad
